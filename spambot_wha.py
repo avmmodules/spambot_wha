@@ -1,15 +1,13 @@
 '''
-    Description:
-    Send messages from python to whatsapp.
-
-    Author: AlejandroV
+    Description: Send messages from python to whatsapp.
+    Author: aulerjbailey
     Video: https://youtu.be/4DGBVlMmzYs
 '''
 import pyautogui, webbrowser
 from time import sleep
 
 # include your country code and no spaces
-phone = 'YOUR_PHONE_HERE'
+phone = 'PHONE_NUMBER_HERE'
 
 # open whatsapp web
 webbrowser.open(f'https://web.whatsapp.com/send?phone={phone}')
